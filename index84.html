@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>index84</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("input").focus(function () {
+       $(this).css("background-color", "#cccccc");
+      });
+      $("input").blur(function () {
+        $(this).css("background-color", "#ffffff");
+      });
+    });
+  </script>
+</head>
+<body>
+    Имя пользователя: <input type="text" name="fullname"><br>
+    E-mail пользователя: <input type="text" name="email">
+</body>
+</html>
